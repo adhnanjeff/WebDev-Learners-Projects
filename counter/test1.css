@@ -1,0 +1,41 @@
+#myLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    transform: background-color 0.25;
+    margin: 0px;
+}
+
+.counter-container{
+    border: 2px solid;
+    height: auto;
+    padding: 10px;
+}
+
+#btnctn{
+    text-align: center;
+    margin: 10px;
+}
+
+.btn{
+    font-size: 1.5em;
+    background-color: rgb(103, 182, 242);
+    border: 2px solid;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transform: background-color 5;
+}
+
+.btn:hover{
+    background-color: black;
+    color:white;
+}
+
+
+
+#myLabel :active{
+    margin: 0px;
+    background-color: tomato;
+    color:white;
+}
